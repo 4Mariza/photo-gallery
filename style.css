@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+      "header"
+      "nav main"
+      "footer";
+      grid-template-columns: 300px 1fr;
+    background-color: rgb(119, 136, 190);
+}
+
+
+main{
+    display: grid;
+    grid-area:main;
+    height: 100vh;
+    color:palevioletred;
+}
+
+
+header{
+    align-items: center;
+    justify-content: center;
+    background-color: plum;
+    width: 100vw;
+}
