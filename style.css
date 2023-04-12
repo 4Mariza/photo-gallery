@@ -35,7 +35,7 @@ color: rgba(255, 73, 49, 0.8);
     height: 5px;
     width: 90px;
     border-radius: 22%;
-    transform: translate(-250px, 63px);
+    transform: translate(-250px, 65px);
 
 }
 main{
@@ -46,7 +46,7 @@ main{
 
 .top{
     display: grid;
-    width: 1430px;
+    width: 1465px;
     height: 620px;
     grid-template-columns: 1fr 900px;
     justify-content: center;
@@ -65,7 +65,7 @@ main{
 
 }
 .img1 img{
-    width: 510px;
+    width: 550px;
     height: 670px;
 }
 .legenda-img{
@@ -78,7 +78,7 @@ main{
     width: 500px;
 }
 .bottom img{
-    width:470px;
+    width:480px;
     height: 300px;
     margin-right: 15px;
   
@@ -120,7 +120,7 @@ a{
 .legenda-img:hover{
     cursor: pointer;
     font-size: 35px;
-    width: 510px;
+    width: 550px;
     transition: linear;
 }
 
