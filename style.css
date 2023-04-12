@@ -17,6 +17,7 @@ html{
 header{
     display: grid;
     width: 100vw;
+    height: 0vh;;
     font-size: small;
     justify-content: center;
 }
@@ -33,6 +34,7 @@ color: rgba(255, 73, 49, 0.8);
     background-color: black;
     height: 5px;
     width: 90px;
+    border-radius: 22%;
     transform: translate(-250px, 63px);
 
 }
@@ -51,7 +53,7 @@ main{
 }
 .top img{
     width: 450px;
-    height: 300px;
+    height: 330px;
 }
 .quatro{
     display: grid;
@@ -64,7 +66,7 @@ main{
 }
 .img1 img{
     width: 510px;
-    height: 610px;
+    height: 670px;
 }
 .legenda-img{
     position: absolute;
@@ -86,7 +88,6 @@ main{
     height: 300px;
 }
 footer{
-    background-color;
     height: 100%;
     width: 100%;
 }
@@ -111,7 +112,7 @@ a{
 .legenda-img{
   width: 0px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  transform: translateY(-100px);
+  transform: translateY(-86px);
   transition: all 2s 0.5s linear;
 
 }
